@@ -3,8 +3,8 @@ import React, {Component} from 'react';
 let quizData = require('./quiz_data');
 
 class Quiz extends Component {
-    constructor(props, context) {
-        super(props, context);
+    constructor(props) {
+        super(props);
         this.state = {quiz_position: 1};
     }
 
